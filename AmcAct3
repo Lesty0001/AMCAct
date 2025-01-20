@@ -1,0 +1,16 @@
+import React from 'react';
+import {View, Text, Image, ScrollView, TextInput} from 'react-native';
+
+const App = () => {
+  return (
+    <ScrollView>
+      <Text style={{textAlign: 'center', fontSize: 20}}>The name is, Lester Bronia</Text>
+      <Text style={{textAlign: 'left'}}>Role in the projects are backend programming and database.</Text>
+      <Text style={{textAlign: 'left'}}>The challenges I face are the pressure of being leader of the group. It is even heavy because it is my first time of being leader of somewhat big projects. First two weeks of the making of the project, I kind of start learning the languange that we need to use, so that was really hard since they didn't teach us in the school to the that given language. Somehow we did it because of the power of friendship. </Text>
+      <View style={{justifyContent: 'center', alignItems: 'center'}}>
+      </View>
+    </ScrollView>
+  );
+};
+
+export default App;
